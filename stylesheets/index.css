@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+	background: url(../image/6.jpeg);
+	background-size: cover;
+
+}
+.clear{
+	clear:both;
+}
+.kapian{
+	width: 1200px;
+	margin-top: 30px;
+	margin-left: 80px;
+	border: 1px solid black;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.title{
+	width: 100px;
+	height: 30px;
+	box-shadow: -2px 0 5px rgb(19,80,225);
+	background-color: #eee;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	top:10px;
+	left: -25px;
+	-webkit-transform:rotateZ(-45deg)
+
+}
+.hezi{
+	width: 800px;
+	border-radius: 10px;
+	/*border: 1px solid black;*/
+	margin: 10px auto;
+
+}
+#box7{
+	height: 600px;
+	position: relative;
+	perspective:800px;
+}
+.box{
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	line-height: 200px;
+	width: 600px; height: 511px; 
+	/*border: 2px solid #222;*/
+	background: rgba(200,120,80,0.6);
+	border-radius: 10px;
+	background-size: cover;
+	box-shadow: 0 12px 20px rgba(24,56,56,0.8);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -255px;
+	margin-left:-300px;
+	-webkit-transition:all 0.5s ease;
+	-webkit-transform-style:preserve-3d;
+
+}
